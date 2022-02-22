@@ -35,6 +35,9 @@ button {
   border-radius: 12px;
   color: #fff;
   background-color: #f2994a;
+  padding: 15px 35px;
+  border: none;
+  font-size: 16px;
 }
 .container {
   max-width: 1200px;
@@ -98,6 +101,10 @@ button {
       width: 21px;
       height: 21px;
       vertical-align: middle;
+    }
+    button {
+      display: block;
+      margin-left: auto;
     }
   }
   .card {
