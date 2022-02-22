@@ -17,6 +17,8 @@ h1 {
 h2 {
   font-size: 18px;
   color: #333333;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
 h3 {
@@ -24,9 +26,17 @@ h3 {
   color: #4e5150;
 }
 
+p {
+  font-size: 16px;
+  color: #f2994a;
+}
+
 img {
-  max-width: 100%;
-  height: auto;
+  width: 175px;
+  height: 175px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px;
 }
 
 button {
@@ -39,13 +49,49 @@ button {
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
-  padding: 2rem 0rem;
+  padding-top: 1rem;
 }
 
 .row {
   display: flex;
+  justify-content: space-between;
 }
 
-form {
-  padding-top: 2rem;
+.row form {
+  width: 50%;
+}
+.row form .info {
+  position: relative;
+}
+.row form .info .fa-solid {
+  position: absolute;
+  bottom: 23px;
+  left: 15px;
+  color: #828282;
+  font-size: 16px;
+}
+.row form .info label {
+  font-size: 12px;
+  color: #4f4f4f;
+}
+.row form input[type=text] {
+  width: 100%;
+  padding: 12px 40px;
+  margin: 8px 0;
+  font-size: 16px;
+  display: inline-block;
+  border: 1px solid #828282;
+  color: #828282;
+  border-radius: 5px;
+}
+.row .card {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  border-radius: 12px;
+}
+.row .card .row {
+  padding: 1.5rem;
+}
+.row .card .row .image {
+  padding-right: 20px;
 }/*# sourceMappingURL=style.css.map */
