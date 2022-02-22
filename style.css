@@ -27,10 +27,15 @@ h3 {
   color: #4e5150;
 }
 
-p {
+h4 {
   font-size: 16px;
   margin-right: 20px;
   color: #f2994a;
+}
+
+p {
+  font-size: 14px;
+  color: #333333;
 }
 
 span {
@@ -168,4 +173,13 @@ button {
   position: absolute;
   right: 20px;
   top: 15px;
+}
+.row .card .product-row {
+  padding-bottom: 4rem;
+}
+.row .card .row h2 {
+  margin-top: 0rem;
+}
+.row .card hr {
+  border: 1px solid rgba(189, 189, 189, 0.3);
 }/*# sourceMappingURL=style.css.map */
