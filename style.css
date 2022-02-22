@@ -70,9 +70,24 @@ button {
   color: #828282;
   font-size: 16px;
 }
+.row form .info .fa-mailbox {
+  background-color: red;
+}
 .row form .info label {
   font-size: 12px;
   color: #4f4f4f;
+}
+.row form .row select {
+  position: absolute;
+  bottom: 23px;
+  right: 20px;
+  background-color: #e0e0e0;
+  border: none;
+  color: #828282;
+  border-radius: 3px;
+}
+.row form .row .half-size {
+  width: 45%;
 }
 .row form input[type=text] {
   width: 100%;
@@ -83,6 +98,14 @@ button {
   border: 1px solid #828282;
   color: #828282;
   border-radius: 5px;
+}
+.row form input[type=checkbox] {
+  margin: 1rem 0;
+  border: 1px solid #828282;
+  color: #828282;
+  width: 21px;
+  height: 21px;
+  vertical-align: middle;
 }
 .row .card {
   background-color: #f2f2f2;
