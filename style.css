@@ -74,8 +74,20 @@ button {
   justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 24px;
+  }
+}
+
 .row form {
   width: 50%;
+}
+@media (max-width: 768px) {
+  .row form h2 {
+    font-size: 16px;
+    margin-top: 1.5rem;
+  }
 }
 .row form .info {
   position: relative;
@@ -110,6 +122,12 @@ button {
   color: #828282;
   border-radius: 3px;
 }
+@media (max-width: 1024px) {
+  .row form .row select {
+    bottom: 20px;
+    right: 10px;
+  }
+}
 .row form .row .half-size {
   width: 45%;
 }
@@ -129,6 +147,11 @@ button {
     padding: 12px 32px;
   }
 }
+@media (max-width: 1024px) {
+  .row form input[type=text] {
+    font-size: 12px;
+  }
+}
 .row form input[type=checkbox] {
   margin: 1rem 0;
   border: 1px solid #828282;
@@ -140,6 +163,12 @@ button {
 .row form button {
   display: block;
   margin-left: auto;
+}
+@media (max-width: 768px) {
+  .row form button {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
 }
 .row .card {
   background-color: #f2f2f2;
@@ -159,6 +188,12 @@ button {
 .row .card .row .image {
   width: 40%;
 }
+@media (max-width: 768px) {
+  .row .card .row .image {
+    padding-right: 10px;
+    min-width: 40%;
+  }
+}
 .row .card .row .image img {
   width: 125px;
   height: 115px;
@@ -166,15 +201,41 @@ button {
      object-fit: cover;
   border-radius: 12px;
 }
+@media (max-width: 768px) {
+  .row .card .row .image img {
+    width: 120px;
+    height: 90px;
+  }
+}
 .row .card .row .product {
   width: 50%;
+}
+@media (max-width: 768px) {
+  .row .card .row .product {
+    width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  .row .card .row .product h3 {
+    font-size: 12px;
+  }
 }
 .row .card .row .product .details {
   display: flex;
   align-items: center;
 }
+@media (max-width: 768px) {
+  .row .card .row .product .details h4 {
+    font-size: 12px;
+  }
+}
 .row .card .row .product .details span {
   text-decoration: line-through;
+}
+@media (max-width: 768px) {
+  .row .card .row .product .details span {
+    font-size: 10px;
+  }
 }
 .row .card .row .product button {
   display: block;
@@ -185,11 +246,23 @@ button {
   position: relative;
   color: #333333;
 }
+@media (max-width: 768px) {
+  .row .card .row .product button {
+    margin-top: 0.7rem;
+    padding: 8px 20px;
+  }
+}
 .row .card .row .product button .fa-square-minus {
   color: #828282;
   position: absolute;
   left: 20px;
   top: 15px;
+}
+@media (max-width: 768px) {
+  .row .card .row .product button .fa-square-minus {
+    left: 15px;
+    top: 8px;
+  }
 }
 .row .card .row .product button .fa-square-plus {
   color: #828282;
@@ -197,11 +270,37 @@ button {
   right: 20px;
   top: 15px;
 }
+@media (max-width: 768px) {
+  .row .card .row .product button .fa-square-plus {
+    right: 15px;
+    top: 8px;
+  }
+}
 .row .card .product-row {
   padding-bottom: 4rem;
 }
+@media (max-width: 768px) {
+  .row .card .product-row {
+    padding-bottom: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .row .card .row {
+    padding: 0.5rem;
+  }
+}
 .row .card .row h2 {
   margin-top: 0rem;
+}
+@media (max-width: 768px) {
+  .row .card .row h2 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .row .card .row p {
+    font-size: 12px;
+  }
 }
 .row .card hr {
   border: 1px solid rgba(189, 189, 189, 0.3);
@@ -216,4 +315,9 @@ footer p {
   justify-content: center;
   font-size: 14px;
   color: #bdbdbd;
+}
+@media (max-width: 768px) {
+  footer p {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=style.css.map */
