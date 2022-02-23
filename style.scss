@@ -210,9 +210,6 @@ button {
           width: 60%;
         }
         @media (max-width: 530px) {
-          width: 60%;
-        }
-        @media (max-width: 450px) {
           width: 50%;
         }
 
@@ -249,14 +246,12 @@ button {
             padding: 8px 20px;
           }
           @media (max-width: 530px) {
-            width: 40%;
-          }
-          @media (max-width: 450px) {
             width: 60%;
           }
-          @media (max-width: 330px) {
-            width: 80%;
+          @media (max-width: 460px) {
+            width: 70%;
           }
+
           .fa-square-minus {
             color: #828282;
             position: absolute;
