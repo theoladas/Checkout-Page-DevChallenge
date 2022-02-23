@@ -79,9 +79,25 @@ button {
     font-size: 24px;
   }
 }
+@media (max-width: 530px) {
+  .hero h1 {
+    margin-bottom: 2rem;
+  }
+}
 
+@media (max-width: 530px) {
+  .row {
+    flex-wrap: wrap;
+  }
+}
 .row form {
   width: 50%;
+}
+@media (max-width: 530px) {
+  .row form {
+    order: 2;
+    width: 100%;
+  }
 }
 @media (max-width: 768px) {
   .row form h2 {
@@ -106,6 +122,12 @@ button {
     font-size: 12px;
   }
 }
+@media (max-width: 320px) {
+  .row form .info .fa-solid {
+    bottom: 22px;
+    left: 10px;
+  }
+}
 .row form .info .fa-mailbox {
   background-color: red;
 }
@@ -128,6 +150,12 @@ button {
     right: 10px;
   }
 }
+@media (max-width: 320px) {
+  .row form .row select {
+    bottom: 20px;
+    right: 6px;
+  }
+}
 .row form .row .half-size {
   width: 45%;
 }
@@ -147,9 +175,14 @@ button {
     padding: 12px 32px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .row form input[type=text] {
     font-size: 12px;
+  }
+}
+@media (max-width: 320px) {
+  .row form input[type=text] {
+    padding: 12px 28px;
   }
 }
 .row form input[type=checkbox] {
@@ -182,6 +215,17 @@ button {
     width: 40%;
   }
 }
+@media (max-width: 530px) {
+  .row .card {
+    order: 1;
+    width: 100%;
+  }
+}
+@media (max-width: 330px) {
+  .row .card {
+    padding: 0.4rem;
+  }
+}
 .row .card .row {
   padding: 1rem;
 }
@@ -191,7 +235,6 @@ button {
 @media (max-width: 768px) {
   .row .card .row .image {
     padding-right: 10px;
-    min-width: 40%;
   }
 }
 .row .card .row .image img {
@@ -213,6 +256,16 @@ button {
 @media (max-width: 768px) {
   .row .card .row .product {
     width: 60%;
+  }
+}
+@media (max-width: 530px) {
+  .row .card .row .product {
+    width: 60%;
+  }
+}
+@media (max-width: 450px) {
+  .row .card .row .product {
+    width: 50%;
   }
 }
 @media (max-width: 768px) {
@@ -252,6 +305,21 @@ button {
     padding: 8px 20px;
   }
 }
+@media (max-width: 530px) {
+  .row .card .row .product button {
+    width: 40%;
+  }
+}
+@media (max-width: 450px) {
+  .row .card .row .product button {
+    width: 60%;
+  }
+}
+@media (max-width: 330px) {
+  .row .card .row .product button {
+    width: 80%;
+  }
+}
 .row .card .row .product button .fa-square-minus {
   color: #828282;
   position: absolute;
@@ -284,9 +352,19 @@ button {
     padding-bottom: 2rem;
   }
 }
+@media (max-width: 530px) {
+  .row .card .product-row {
+    padding-bottom: 3rem;
+  }
+}
 @media (max-width: 768px) {
   .row .card .row {
     padding: 0.5rem;
+  }
+}
+@media (max-width: 530px) {
+  .row .card .row {
+    padding: 1rem;
   }
 }
 .row .card .row h2 {
