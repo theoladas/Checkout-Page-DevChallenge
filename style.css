@@ -238,17 +238,11 @@ button {
   }
 }
 .row .card .row .image img {
-  width: 125px;
-  height: 115px;
+  max-width: 100%;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 12px;
-}
-@media (max-width: 768px) {
-  .row .card .row .image img {
-    width: 120px;
-    height: 90px;
-  }
 }
 .row .card .row .product {
   width: 50%;
