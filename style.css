@@ -159,7 +159,9 @@ button {
 .row form .row .half-size {
   width: 45%;
 }
-.row form input[type=text] {
+.row form input[type=text],
+.row form input[type=email],
+.row form input[type=number] {
   width: 100%;
   padding: 12px 40px;
   margin: 8px 0;
@@ -170,18 +172,24 @@ button {
   border-radius: 5px;
 }
 @media (max-width: 1024px) {
-  .row form input[type=text] {
+  .row form input[type=text],
+.row form input[type=email],
+.row form input[type=number] {
     font-size: 13px;
     padding: 12px 32px;
   }
 }
 @media (max-width: 768px) {
-  .row form input[type=text] {
+  .row form input[type=text],
+.row form input[type=email],
+.row form input[type=number] {
     font-size: 12px;
   }
 }
 @media (max-width: 320px) {
-  .row form input[type=text] {
+  .row form input[type=text],
+.row form input[type=email],
+.row form input[type=number] {
     padding: 12px 28px;
   }
 }
