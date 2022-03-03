@@ -63,6 +63,7 @@ button {
 }
 // HERO SECTION
 .hero {
+  padding-bottom: 2rem;
   h1 {
     @media (max-width: 768px) {
       font-size: 24px;
@@ -73,6 +74,7 @@ button {
   }
 }
 .row {
+  // margin-bottom: 2rem;
   @media (max-width: 530px) {
     flex-wrap: wrap;
   }
@@ -314,15 +316,25 @@ button {
 
 // FOOTER
 footer {
-  padding: 5rem 0rem 1rem;
-  p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p,
+  a {
     color: #bdbdbd;
-    @media (max-width: 768px) {
-      font-size: 12px;
+    font-weight: 700;
+    font-size: 14px;
+
+    @media (max-width: 480px) {
+      font-size: 0.8rem;
     }
+    @media (max-width: 390px) {
+      font-size: 0.6rem;
+    }
+  }
+  a {
+    text-decoration: underline;
   }
 }
